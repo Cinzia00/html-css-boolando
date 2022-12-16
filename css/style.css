@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+header > .container, section {
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: orange;
+}
+
+.section {
+    background-color: aquamarine;
+}
+
+header .col {
+    display: flex;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(100% / 3);
+}
+
+.red {
+    background-color: red;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.blue {
+    background-color: blue;
+}
