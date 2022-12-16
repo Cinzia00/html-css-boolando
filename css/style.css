@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 img {
     max-width: 100%;
 }
@@ -12,17 +17,34 @@ img {
     max-width: 100px;
 }
 
-header > .container, section {
+header {
+    background-color: orange;
+}
+
+header .row {
+    justify-content: space-between;
+    color: white;
+    font-weight: bold; 
+}
+
+.header-menu {
+    display: flex;
+}
+
+.menu-item {
+    margin: 5px;
+}
+
+.container, section {
     margin: 0 auto;
     max-width: 1100px;
-    background-color: orange;
 }
 
 .section {
     background-color: aquamarine;
 }
 
-header .col {
+.row {
     display: flex;
 }
 
@@ -32,13 +54,10 @@ header .col {
 }
 
 .card {
-   flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 3);
 }
 
 .img {
-    /* width: 300px;
-    height: 500px; */
-    /* background-image: url('../img/1.webp'); */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -60,7 +79,7 @@ header .col {
     font-size: 13px;
     gap: 5px;
     position: absolute;
-    bottom: 77px;
+    bottom: 50px;
 }
 
 .sconto {
@@ -77,4 +96,19 @@ header .col {
 
 .prezzo {
     color: red;
+    font-weight: bold;
+}
+
+.boolando {
+    font-size: 20px;
+    padding: 5px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+}
+
+footer .row {
+    justify-content: space-between;
 }
